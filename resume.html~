@@ -9,7 +9,7 @@
     <meta name="description" content="Career Page">
     <meta name="author" content="Anjith George">
 
-    <title>Anjith George - Homepage</title>
+    <title>Sai Srivatsa - Homepage</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -64,7 +64,7 @@
                 <div class="publ">
 				<ul>
 				<b>Curriculum Vitae :</b>
-				<li><a href="Files/resume.pdf">Download PDF</a></li>
+				<li><a href="Files\resume.pdf">Download PDF</a></li>
 				<span style="color: #777"><br>Updated on 30-Oct-2015</span>
 				</ul>
  				</div>
@@ -73,7 +73,7 @@
 
 
  		<br>
- 		<p> Web Version (Short) : </p>
+ 		<p> Web version (Short) : </p>
 
 
 		<div class="panel panel-default">
@@ -87,15 +87,25 @@
                 <h4><b><a href="http://www.iitkgp.ac.in/"> Indian Institute of Technology, Kharagpur (2012 - Current) </a></b></h4>
                 <p> PhD (Pursuing) in Electrical Engineering
                 <br> Computer Vision  </p>
+            </div>
+        </div>
+      </div>
 
-<hr>
-
+			<div class="panel-body">
+				<div class="row">
+		    		<div class="col-md-12">
 		        		<h4><b><a href="http://www.iitkgp.ac.in/"> Indian Institute of Technology, Kharagpur (2010 - 2012) </a></b></h4>
 		        		<p> M. Tech (Instrumentation)in Electrical Engineering
 		        		<br> CGPA : 9.17 /10  </p>
+		    		</div>
+				</div>
+			</div>
 
-      <hr>
-  
+
+
+    <div class="panel-body">
+      <div class="row">
+          <div class="col-md-12">
               <h4><b><a href="http://www.iitkgp.ac.in/"> Calicut University, Kerala (2006 - 2010) </a></b></h4>
               <p> B. Tech (Hons. ) in Electrical and Electronics Engineering </p>
 
