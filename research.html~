@@ -50,75 +50,37 @@
 	</center>
 
 		<ul class="nav nav-tabs nav-justified">
-  		<li role="presentation" class="active"><a href="#">About</a></li>
-  		<li role="presentation"><a href="research.html">Research</a></li>
+  		<li role="presentation"><a href="index.html">About</a></li>
+  		<li role="presentation" class="active"><a href="#">Research</a></li>
   		<li role="presentation"><a href="resume.html">Curriculum Vitae</a></li>
   		<li role="presentation"><a href="contact.html">Contact</a></li>
 
 		</ul>
 
-
-
-		<div class="row">
-			<div class="col-md-8">
-			<br><br>
-				<p align = "justify"> Currently Pursuing PhD in Department of Electrical Engineering in <a href = "http://www.iitkgp.ac.in">Indian Institute of Technology, Kharagpur</a> .
-				<br><br>
-				Previously, received M Tech  in  Instrumentation from  <a href = "http://www.iitkgp.ac.in">Indian Institute of Technology, Kharagpur</a>  in 2012 and B Tech (Hons. ) from Calicut University , Kerala in 2010 in Electrical and Electronics Engg.
-				<br><br>
-			 Areas of expertise include Computer vision, Image processing, Pattern recognition, Machine Learning, Eye tracking, Python, C and C++ programming, Micro controller programming, and Embedded System Design.
-	<br><br>
-  <div class="puba"> <i>Member, IEEE</i></div>
-
-
-    <div class="puba"> <i>Member, COGAIN</i></div>
-
-      	</p>
-
+		<br><br>
+        <!-- Project One -->
+         <div class="pubwrap">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="pubimg">
+						<br><br><br>
+						<img src="Figures/img.jpeg">
+					</div>
+				</div>
+				<div class="col-md-6">
+				<div class="pub">
+				<div class="pubt"> A Vision Based System for Monitoring the Loss of Attention in Automotive Drivers</div>
+				<div class="pubd"> On board monitoring of the alertness level of an automotive driver has been a challenging research in transportation safety and management. In this paper, we propose a robust real time embedded platform to monitor the loss of attention of the driver during day as well as night driving conditions. The PERcentage of eye CLOSure (PERCLOS) has been used as the indicator of the alertness level.  The algorithm has been cross validated using brain signals and finally been implemented on a Single Board Computer (SBC). The system is found to be robust under actual driving conditions.  </div>
+				<div class="puba"> 	Intelligent Transportation Systems, IEEE Transactions on 14, no. 4 (2013): 1825-1838</div>
+				<div class="pubv">DOI: 10.1109/TITS.2013.2271052</div>
+				<div class="publ">
+				<ul>
+				<li><a href = "http://arxiv.org/find/all/1/all:+AND+anjith+george/0/1/0/all/0/1">arXiv Link</a></li>
+				</ul>
+				</div>
+					</div>
+				</div>
 			</div>
-
-            <div class="col-md-4">
-                <div class="pubimg">
-                    <br><img src="Figures/anjith.jpg">
-                </div>
-
-
-            </div>
-              </div>
-          <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title"><b> Research Areas</b></h3>
-      </div>
-
-      <div class="panel-body">
-        <div class="row">
-            <div class="col-md-12">
-                
-                <p>  Embedded Signal and Image Processing</p> <br>
-                <p>     Computer Vision and Applications</p> <br>
-
-                <p>  Pattern Recognition and Machine Learning</p> <br>
-                <p>   Eye Gaze Tracking and Applications</p> <br>
-                <p>   Human Computer Interaction</p> <br>
-
-              
-
-
-
-                
-   
-
-   
-  
-
-            
-            </div>
-        </div>
-      </div>
-        </div>
-
-
-
 		</div>
 
 
@@ -128,7 +90,9 @@
 
 
 
-        <!-- /.row -->
+
+
+
 
 
     <!-- /.container -->
