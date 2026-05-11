@@ -42,18 +42,19 @@
     const getInitialTheme = () => {
         const stored = localStorage.getItem(STORAGE_KEY);
         if (stored === 'light' || stored === 'dark') return stored;
-        return window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches
-            ? 'light' : 'dark';
+        // Default to light; honour dark-preference users
+        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+            ? 'dark' : 'light';
     };
 
     const applyTheme = (theme) => {
-        const isLight = theme === 'light';
-        document.body.classList.toggle('light-mode', isLight);
+        const isDark = theme === 'dark';
+        document.body.classList.toggle('dark-mode', isDark);
         if (icon) {
-            icon.classList.toggle('fa-sun', isLight);
-            icon.classList.toggle('fa-moon', !isLight);
+            icon.classList.toggle('fa-sun', isDark);
+            icon.classList.toggle('fa-moon', !isDark);
         }
-        toggleButton.setAttribute('aria-label', isLight ? 'Switch to dark theme' : 'Switch to light theme');
+        toggleButton.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
         localStorage.setItem(STORAGE_KEY, theme);
     };
 
@@ -61,7 +62,7 @@
     applyTheme(activeTheme);
 
     toggleButton.addEventListener('click', () => {
-        activeTheme = activeTheme === 'light' ? 'dark' : 'light';
+        activeTheme = activeTheme === 'dark' ? 'light' : 'dark';
         applyTheme(activeTheme);
     });
 })();

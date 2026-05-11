@@ -6,7 +6,7 @@
     <meta name="description" content="Anjith George - Publications">
     <meta name="author" content="Anjith George">
     <title>Anjith George | Publications</title>
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/site.css">
@@ -18,16 +18,54 @@
     </button>
 
     <div class="page-shell">
-        
+
         <div id="sidebar-ph"></div>
 
         <main class="content-area">
-            
+
             <div class="page-header">
                 <h1 class="page-title">Publications</h1>
-                <p class="page-subtitle">A collection of selected research papers and conference proceedings.</p>
+                <p class="page-subtitle">Selected research papers and conference proceedings.</p>
             </div>
-<h2 class="year-heading">2025</h2>
+
+<h2 class="year-heading">2026</h2>
+
+            <details>
+                <summary>
+                    <span class="paper-title">Autoencoders for Open-Set Presentation Attack Detection</span>
+                    I. Bastos, <span class="my-name">Anjith George</span>, Sébastien Marcel, Anderson Rocha <br>
+                    <span class="venue">IEEE Transactions on Biometrics Behavior and Identity Science, 2026</span>
+                </summary>
+                <div class="links-row"><a href="https://doi.org/10.1109/TBIOM.2026.3651671" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/31c9f260d701c850e20f7d04744dc1abb75e5421" class="badge-link" target="_blank">URL</a></div>
+                <div class="abstract-box">
+                    Face anti-spoofing (FAS) has gained significant attention due to its crucial role in ensuring the security of facial recognition systems. Despite numerous proposed methods for addressing various types of presentation attacks, there remains a gap in the existing literature, as most methods only tackle seen attack types and lack generalizability in real-world scenarios. This paper presents a novel method for face antispoofing, specifically focused on open-set scenarios. The proposed approach consists of an autoencoder exclusively trained to reconstruct bona fide data. The key idea is that features extracted using this model would exhibit poor quality for attack data, resulting in significantly higher reconstruction errors. Consequently, these low-quality features would differ from the well-reconstructed features of bona fide samples. Our method’s key novelty lies in the rich feature learning procedure that focuses on the properties of bona fide samples through an autoencoder formulation. The extracted features are used to train one-class classifiers using only bona fide samples. Experimental results on standard benchmarks such as RECOD-MPAD, WMCA, HQ-WMCA, Replay-Attack, OULU-NPU and MSU-MFSD datasets demonstrate the excellent performance of our proposed approach, placing it among state-of-the-art methods for metrics like Bona Fide Presentation Classification Error Rate (BPCER), Attack Presentation Classification Error Rate (APCER) and Average Classification Error Rate (ACER).
+                </div>
+            </details>
+        
+            <details>
+                <summary>
+                    <span class="paper-title">Lightweight Cross-Spectral Face Recognition via Contrastive Alignment and Distillation</span>
+                    <span class="my-name">Anjith George</span>, S´ebastien Marcel <br>
+                    <span class="venue">Unknown Venue, 2026</span>
+                </summary>
+                <div class="links-row"><a href="https://www.semanticscholar.org/paper/c4e296abbd9985275823b1ad80367f144d6d1674" class="badge-link" target="_blank">URL</a></div>
+                <div class="abstract-box">
+                    Heterogeneous Face Recognition (HFR) aims at matching face images captured across different sensing modalities, such as thermal-to-visible or near-infrared-to-visible, enhancing the usability of face recognition systems in challenging real-world conditions. Although recent HFR methods have achieved significant improvements in performance, many rely on computationally expensive models, making them impractical for deployment on resource-limited edge devices. In this work, we introduce a lightweight yet effective HFR framework by adapting a hybrid CNN-Transformer model originally developed for RGB homogeneous face recognition. Our approach enables efficient end-to-end training with only a small amount of paired heterogeneous data, while still maintaining strong performance on standard RGB face recognition benchmarks. This makes it suitable for both homogeneous and heterogeneous settings. Comprehensive experiments on several challenging HFR and face recognition benchmarks show that our method achieves state-of-the-art or competitive performance while keeping computational requirements low.
+                </div>
+            </details>
+        
+            <details>
+                <summary>
+                    <span class="paper-title">Evaluating Multimodal Large Language Models for Heterogeneous Face Recognition</span>
+                    Hatef Otroshi-Shahreza, <span class="my-name">Anjith George</span>, Sébastien Marcel <br>
+                    <span class="venue">arXiv.org, 2026</span>
+                </summary>
+                <div class="links-row"><a href="https://doi.org/10.48550/arXiv.2601.15406" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/cef710ba219a2fbc85125081e10b450810d4bf42" class="badge-link" target="_blank">URL</a></div>
+                <div class="abstract-box">
+                    Multimodal Large Language Models (MLLMs) have recently demonstrated strong performance on a wide range of vision-language tasks, raising interest in their potential use for biometric applications. In this paper, we conduct a systematic evaluation of state-of-the-art MLLMs for heterogeneous face recognition (HFR), where enrollment and probe images are from different sensing modalities, including visual (VIS), near infrared (NIR), short-wave infrared (SWIR), and thermal camera. We benchmark multiple open-source MLLMs across several cross-modality scenarios, including VIS-NIR, VIS-SWIR, and VIS-THERMAL face recognition. The recognition performance of MLLMs is evaluated using biometric protocols and based on different metrics, including Acquire Rate, Equal Error Rate (EER), and True Accept Rate (TAR). Our results reveal substantial performance gaps between MLLMs and classical face recognition systems, particularly under challenging cross-spectral conditions, in spite of recent advances in MLLMs. Our findings highlight the limitations of current MLLMs for HFR and also the importance of rigorous biometric evaluation when considering their deployment in face recognition systems.
+                </div>
+            </details>
+        <h2 class="year-heading">2025</h2>
 
             <details>
                 <summary>
@@ -44,10 +82,10 @@
             <details>
                 <summary>
                     <span class="paper-title">Enhancing Domain Diversity in Synthetic Data Face Recognition with Dataset Fusion</span>
-                    <span class="my-name">Anjith George</span>, Sébastien Marcel <br>
-                    <span class="venue">arXiv.org, 2025</span>
+                    <span class="my-name">Anjith George</span>, S´ebastien Marcel <br>
+                    <span class="venue">2025 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW), 2025</span>
                 </summary>
-                <div class="links-row"><a href="https://doi.org/10.48550/arXiv.2507.16790" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/592421ea8cffd4d6648ec62b35562d5bfbef23d4" class="badge-link" target="_blank">URL</a></div>
+                <div class="links-row"><a href="https://doi.org/10.1109/ICCVW69036.2025.00055" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/592421ea8cffd4d6648ec62b35562d5bfbef23d4" class="badge-link" target="_blank">URL</a></div>
                 <div class="abstract-box">
                     While the accuracy of face recognition systems has improved significantly in recent years, the datasets used to train these models are often collected through web crawling without the explicit consent of users, raising ethical and privacy concerns. To address this, many recent approaches have explored the use of synthetic data for training face recognition models. However, these models typically underperform compared to those trained on real-world data. A common limitation is that a single generator model is often used to create the entire synthetic dataset, leading to model-specific artifacts that may cause overfitting to the generator's inherent biases and artifacts. In this work, we propose a solution by combining two state-of-the-art synthetic face datasets generated using architecturally distinct backbones. This fusion reduces model-specific artifacts, enhances diversity in pose, lighting, and demographics, and implicitly regularizes the face recognition model by emphasizing identity-relevant features. We evaluate the performance of models trained on this combined dataset using standard face recognition benchmarks and demonstrate that our approach achieves superior performance across many of these benchmarks.
                 </div>
@@ -69,9 +107,9 @@
                 <summary>
                     <span class="paper-title">xEdgeFace: Efficient Cross-Spectral Face Recognition for Edge Devices</span>
                     <span class="my-name">Anjith George</span>, Sébastien Marcel <br>
-                    <span class="venue">arXiv.org, 2025</span>
+                    <span class="venue">2025 IEEE International Joint Conference on Biometrics (IJCB), 2025</span>
                 </summary>
-                <div class="links-row"><a href="https://doi.org/10.48550/arXiv.2504.19646" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/8e5c8ff18a858b4c0256bf9b481a6a4c87f274f4" class="badge-link" target="_blank">URL</a></div>
+                <div class="links-row"><a href="https://doi.org/10.1109/IJCB65343.2025.11410838" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/8e5c8ff18a858b4c0256bf9b481a6a4c87f274f4" class="badge-link" target="_blank">URL</a></div>
                 <div class="abstract-box">
                     Heterogeneous Face Recognition (HFR) addresses the challenge of matching face images across different sensing modalities, such as thermal to visible or near-infrared to visible, expanding the applicability of face recognition systems in real-world, unconstrained environments. While recent HFR methods have shown promising results, many rely on computation-intensive architectures, limiting their practicality for deployment on resource-constrained edge devices. In this work, we present a lightweight yet effective HFR framework by adapting a hybrid CNN-Transformer architecture originally designed for face recognition. Our approach enables efficient end-to-end training with minimal paired heterogeneous data while preserving strong performance on standard RGB face recognition tasks. This makes it a compelling solution for both homogeneous and heterogeneous scenarios. Extensive experiments across multiple challenging HFR and face recognition benchmarks demonstrate that our method consistently outperforms state-of-the-art approaches while maintaining a low computational overhead.
                 </div>
@@ -79,11 +117,23 @@
         
             <details>
                 <summary>
+                    <span class="paper-title">DeepID Challenge of Detecting Synthetic Manipulations in ID Documents</span>
+                    Pavel Korshunov, Vidit Vidit, Amir Mohammadi, Christophe Ecabert, Nevena Shamoska, S´ebastien Marcel, Zeqin Yu, Ye Tian, Jiangqun Ni, L. Lazarević, Renat Khizbullin, Anastasiia Evteeva, Alexey Tochin, A. Grishin, <span class="my-name">Anjith George</span>, Daniel DeAlcala, Tamás Endrei, Javier Muñoz-Haro, Rubén Tolosana, R. Vera-Rodríguez, A. Morales, Julian Fiérrez, G. Cserey, Hardik Sharma, S. Chaudhary, Akshay Dudhane, P. Hambarde, Amit Shukla, Prateek Shaily, J. Kumar, Ajinkya Hase, Satish Maurya, Mridula Sharma, P. Dwivedi <br>
+                    <span class="venue">2025 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW), 2025</span>
+                </summary>
+                <div class="links-row"><a href="https://doi.org/10.1109/ICCVW69036.2025.00059" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/9569b0b0aa83eb9969851fd5e0f2ca4262118073" class="badge-link" target="_blank">URL</a></div>
+                <div class="abstract-box">
+                    An increase in AI based manipulations of ID document images threatens KYC systems widely used in online banking and other digital authentication services. DeepID challenge aimed to advance the research in the methods for detecting synthetic manipulations in ID documents. For that purpose a FantasyID dataset of both bona fide and manipulated fantasy ID cards was provided to the participants for training and tuning of their systems. Participating submissions were evaluated on a test set of FantasyID card created with both seen and unseen attacks, and on an out-of-domain private dataset of 20K real ID documents containing both genuine bona fide and manipulated samples. The challenge included two tracks 1) a binary detection track to detect whether an ID document is manipulated or not and 2) a localization track, where the goal was to identify the manipulated regions of an ID document. The evaluations were based on the F1-score metric for both detection and localization track and the submissions were ranked based on the weighted average F1-score of FantasyID (with weight 0.3) and private (with weight 0.7) test sets. With more than 100 registrations in the challenge, 26 teams have participated and 6 of them managed to beat the provided TruFor baseline method in detection track and 4 teams in the localization track. Sunlight team from Sun Yat-sen University has won both tracks of the challenge and UAM-Biometrics has ranked best in the private dataset.
+                </div>
+            </details>
+        
+            <details>
+                <summary>
                     <span class="paper-title">The Invisible Threat: Evaluating the Vulnerability of Cross-Spectral Face Recognition to Presentation Attacks</span>
                     <span class="my-name">Anjith George</span>, Sébastien Marcel <br>
-                    <span class="venue">arXiv.org, 2025</span>
+                    <span class="venue">2025 IEEE International Joint Conference on Biometrics (IJCB), 2025</span>
                 </summary>
-                <div class="links-row"><a href="https://doi.org/10.48550/arXiv.2505.00380" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/fb01c5194e501806e2c25a66242ce1d6bc1eb224" class="badge-link" target="_blank">URL</a></div>
+                <div class="links-row"><a href="https://doi.org/10.1109/IJCB65343.2025.11411262" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/fb01c5194e501806e2c25a66242ce1d6bc1eb224" class="badge-link" target="_blank">URL</a></div>
                 <div class="abstract-box">
                     Cross-spectral face recognition systems are designed to enhance the performance of facial recognition systems by enabling cross-modal matching under challenging operational conditions. A particularly relevant application is the matching of near-infrared (NIR) images to visible-spectrum (VIS) images, enabling the verification of individuals by comparing NIR facial captures acquired with VIS reference images. The use of NIR imaging offers several advantages, including greater robustness to illumination variations, better visibility through glasses and glare, and greater resistance to presentation attacks. Despite these claimed benefits, the robustness of NIR-based systems against presentation attacks has not been systematically studied in the literature. In this work, we conduct a comprehensive evaluation into the vulnerability of NIR-VIS cross-spectral face recognition systems to presentation attacks. Our empirical findings indicate that, although these systems exhibit a certain degree of reliability, they remain vulnerable to specific attacks, emphasizing the need for further research in this area.
                 </div>
@@ -102,6 +152,18 @@
             </details>
         <h2 class="year-heading">2024</h2>
 
+            <details>
+                <summary>
+                    <span class="paper-title">From Modalities to Styles: Rethinking the Domain Gap in Heterogeneous Face Recognition</span>
+                    <span class="my-name">Anjith George</span>, Sébastien Marcel <br>
+                    <span class="venue">IEEE Transactions on Biometrics Behavior and Identity Science, 2024</span>
+                </summary>
+                <div class="links-row"><a href="https://doi.org/10.1109/TBIOM.2024.3365350" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/ccde56677f2dd82fb70f10f99ce2c1acd4a2ced2" class="badge-link" target="_blank">URL</a></div>
+                <div class="abstract-box">
+                    Heterogeneous Face Recognition (HFR) focuses on matching faces from different domains, for instance, thermal to visible images, making Face Recognition (FR) systems more versatile for challenging scenarios. However, the domain gap between these domains and the limited large-scale datasets in the target HFR modalities make it challenging to develop robust HFR models from scratch. In our work, we view different modalities as distinct styles and propose a method to modulate feature maps of the target modality to address the domain gap. We present a new Conditional Adaptive Instance Modulation (CAIM) module that seamlessly fits into existing FR networks, turning them into HFR-ready systems. The CAIM block modulates intermediate feature maps, efficiently adapting to the style of the source modality and bridging the domain gap. Our method enables end-to-end training using a small set of paired samples. We extensively evaluate the proposed approach on various challenging HFR benchmarks, showing that it outperforms state-of-the-art methods. The source code and protocols for reproducing the findings will be made publicly available.
+                </div>
+            </details>
+        
             <details>
                 <summary>
                     <span class="paper-title">Knowledge Distillation for Face Recognition Using Synthetic Data With Dynamic Latent Sampling</span>
@@ -128,6 +190,18 @@
         
             <details>
                 <summary>
+                    <span class="paper-title">Second Edition FRCSyn Challenge at CVPR 2024: Face Recognition Challenge in the Era of Synthetic Data</span>
+                    Ivan Deandres-Tame, Rubén Tolosana, Pietro Melzi, R. Vera-Rodríguez, Minchul Kim, C. Rathgeb, Xiaoming Liu, A. Morales, Julian Fiérrez, J. Ortega-Garcia, Zhizhou Zhong, Y. Huang, Yuxi Mi, Shouhong Ding, Shuigeng Zhou, Shuai He, Lingzhi Fu, Heng Cong, Rongyu Zhang, Zhihong Xiao, Evgeny Smirnov, Anton Pimenov, A.P. Grigorev, Denis Timoshenko, K. Asfaw, Cheng Yaw Low, Hao Liu, Chuyi Wang, Qing Zuo, Zhixiang He, Hatef Otroshi Shahreza, <span class="my-name">Anjith George</span>, Alexander Unnervik, Parsa Rahimi, Sébastien Marcel, Pedro C. Neto, Marco Huber, J. Kolf, Naser Damer, Fadi Boutros, Jaime S. Cardoso, Ana F. Sequeira, A. Atzori, G. Fenu, Mirko Marras, Vitomir vStruc, Jiang Yu, Zhangjie Li, Jichun Li, Weisong Zhao, Zhen Lei, Xiangyu Zhu, Xiao-Yu Zhang, Bernardo Biesseck, Pedro Vidal, Luiz Coelho, Roger Granada, David Menotti <br>
+                    <span class="venue">2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2024</span>
+                </summary>
+                <div class="links-row"><a href="https://doi.org/10.1109/CVPRW63382.2024.00323" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/25a5e29727a1cf7822610ec64a09a6c30423addd" class="badge-link" target="_blank">URL</a></div>
+                <div class="abstract-box">
+                    Synthetic data is gaining increasing relevance for training machine learning models. This is mainly motivated due to several factors such as the lack of real data and intra-class variability, time and errors produced in manual labeling, and in some cases privacy concerns, among others. This paper presents an overview of the 2nd edition of the Face Recognition Challenge in the Era of Synthetic Data (FRCSyn) organized at CVPR 2024. FRCSyn aims to investigate the use of synthetic data in face recognition to address current technological limitations, including data privacy concerns, demographic biases, generalization to novel scenarios, and performance constraints in challenging situations such as aging, pose variations, and occlusions. Unlike the 1st edition, in which synthetic data from DCFace and GANDiffFace methods was only allowed to train face recognition systems, in this 2nd edition we propose new sub-tasks that allow participants to explore novel face generative methods. The outcomes of the 2nd FRCSyn Challenge, along with the proposed experimental protocol and benchmarking contribute significantly to the application of synthetic data to face recognition.
+                </div>
+            </details>
+        
+            <details>
+                <summary>
                     <span class="paper-title">Modality Agnostic Heterogeneous Face Recognition with Switch Style Modulators</span>
                     <span class="my-name">Anjith George</span>, Sébastien Marcel <br>
                     <span class="venue">2024 IEEE International Joint Conference on Biometrics (IJCB), 2024</span>
@@ -141,7 +215,7 @@
             <details>
                 <summary>
                     <span class="paper-title">Model Pairing Using Embedding Translation for Backdoor Attack Detection on Open-Set Classification Tasks</span>
-                    A. Unnervik, Hatef Otroshi-Shahreza, <span class="my-name">Anjith George</span>, Sébastien Marcel <br>
+                    Alexander Unnervik, Hatef Otroshi-Shahreza, <span class="my-name">Anjith George</span>, Sébastien Marcel <br>
                     <span class="venue">arXiv.org, 2024</span>
                 </summary>
                 <div class="links-row"><a href="https://doi.org/10.48550/arXiv.2402.18718" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/3a0bcbc09aa9ef49b35eca246853b47817d2f0ce" class="badge-link" target="_blank">URL</a></div>
@@ -152,20 +226,8 @@
         
             <details>
                 <summary>
-                    <span class="paper-title">Second Edition FRCSyn Challenge at CVPR 2024: Face Recognition Challenge in the Era of Synthetic Data</span>
-                    Ivan Deandres-Tame, Rubén Tolosana, Pietro Melzi, R. Vera-Rodríguez, Minchul Kim, C. Rathgeb, Xiaoming Liu, A. Morales, Julian Fiérrez, J. Ortega-Garcia, Zhizhou Zhong, Y. Huang, Yuxi Mi, Shouhong Ding, Shuigeng Zhou, Shuai He, Lingzhi Fu, Heng Cong, Rongyu Zhang, Zhihong Xiao, Evgeny Smirnov, Anton Pimenov, A.P. Grigorev, Denis Timoshenko, K. Asfaw, Cheng Yaw Low, Hao Liu, Chuyi Wang, Qing Zuo, Zhixiang He, Hatef Otroshi Shahreza, <span class="my-name">Anjith George</span>, A. Unnervik, Parsa Rahimi, Sébastien Marcel, Pedro C. Neto, Marco Huber, J. Kolf, Naser Damer, Fadi Boutros, Jaime S. Cardoso, Ana F. Sequeira, A. Atzori, G. Fenu, Mirko Marras, Vitomir vStruc, Jiang Yu, Zhangjie Li, Jichun Li, Weisong Zhao, Zhen Lei, Xiangyu Zhu, Xiao-Yu Zhang, Bernardo Biesseck, Pedro Vidal, Luiz Coelho, Roger Granada, David Menotti <br>
-                    <span class="venue">2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2024</span>
-                </summary>
-                <div class="links-row"><a href="https://doi.org/10.1109/CVPRW63382.2024.00323" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/5212ebafdc67dda2e2be6fa715b8d11d85a43118" class="badge-link" target="_blank">URL</a></div>
-                <div class="abstract-box">
-                    Synthetic data is gaining increasing relevance for training machine learning models. This is mainly motivated due to several factors such as the lack of real data and intra-class variability, time and errors produced in manual labeling, and in some cases privacy concerns, among others. This paper presents an overview of the 2nd edition of the Face Recognition Challenge in the Era of Synthetic Data (FRCSyn) organized at CVPR 2024. FRCSyn aims to investigate the use of synthetic data in face recognition to address current technological limitations, including data privacy concerns, demographic biases, generalization to novel scenarios, and performance constraints in challenging situations such as aging, pose variations, and occlusions. Unlike the 1st edition, in which synthetic data from DCFace and GANDiffFace methods was only allowed to train face recognition systems, in this 2nd edition we propose new sub-tasks that allow participants to explore novel face generative methods. The outcomes of the 2nd FRCSyn Challenge, along with the proposed experimental protocol and benchmarking contribute significantly to the application of synthetic data to face recognition.
-                </div>
-            </details>
-        
-            <details>
-                <summary>
                     <span class="paper-title">SDFR: Synthetic Data for Face Recognition Competition</span>
-                    Hatef Otroshi-Shahreza, Christophe Ecabert, <span class="my-name">Anjith George</span>, A. Unnervik, Sébastien Marcel, Nicolò Di Domenico, Guido Borghi, Davide Maltoni, Fadi Boutros, Julia Vogel, Naser Damer, Ángela Sánchez-Pérez, Enrique Mas-Candela, Jorge Calvo-Zaragoza, Bernardo Biesseck, Pedro Vidal, Roger Granada, David Menotti, Ivan Deandres-Tame, Simone Maurizio La Cava, S. Concas, Pietro Melzi, Rubén Tolosana, R. Vera-Rodríguez, Gianpaolo Perelli, G. Orrú, G. L. Marcialis, Julian Fiérrez <br>
+                    Hatef Otroshi-Shahreza, Christophe Ecabert, <span class="my-name">Anjith George</span>, Alexander Unnervik, Sébastien Marcel, N. Domenico, Guido Borghi, D. Maltoni, Fadi Boutros, Julia Vogel, Naser Damer, Ángela Sánchez-Pérez, Enrique Mas-Candela, Jorge Calvo-Zaragoza, Bernardo Biesseck, Pedro Vidal, Roger Granada, David Menotti, Ivan Deandres-Tame, Simone Maurizio La Cava, S. Concas, Pietro Melzi, Rubén Tolosana, R. Vera-Rodríguez, Gianpaolo Perelli, G. Orrú, G. L. Marcialis, Julian Fiérrez <br>
                     <span class="venue">IEEE International Conference on Automatic Face & Gesture Recognition, 2024</span>
                 </summary>
                 <div class="links-row"><a href="https://doi.org/10.1109/FG59268.2024.10581946" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/877c7f64b53fd634ecf2914fe666ba1898be014e" class="badge-link" target="_blank">URL</a></div>
@@ -177,12 +239,12 @@
             <details>
                 <summary>
                     <span class="paper-title">FRCSyn-onGoing: Benchmarking and comprehensive evaluation of real and synthetic data to improve face recognition systems</span>
-                    Pietro Melzi, Rubén Tolosana, R. Vera-Rodríguez, Minchul Kim, C. Rathgeb, Xiaoming Liu, Ivan Deandres-Tame, A. Morales, Julian Fiérrez, J. Ortega-Garcia, Weisong Zhao, Xiangyu Zhu, Zheyu Yan, Xiao-Yu Zhang, Jinlin Wu, Zhen Lei, Suvidha Tripathi, Mahak Kothari, Md Haider Zama, Debayan Deb, Bernardo Biesseck, Pedro Vidal, Roger Granada, Guilherme Fickel, Gustavo Führ, David Menotti, A. Unnervik, <span class="my-name">Anjith George</span>, Christophe Ecabert, Hatef Otroshi-Shahreza, Parsa Rahimi, Sébastien Marcel, Ioannis Sarridis, C. Koutlis, Georgia Baltsou, Symeon Papadopoulos, Christos Diou, Nicolò Di Domenico, Guido Borghi, Lorenzo Pellegrini, Enrique Mas-Candela, Ángela Sánchez-Pérez, A. Atzori, Fadi Boutros, Naser Damer, G. Fenu, Mirko Marras <br>
+                    Pietro Melzi, Rubén Tolosana, R. Vera-Rodríguez, Minchul Kim, C. Rathgeb, Xiaoming Liu, Ivan Deandres-Tame, A. Morales, Julian Fiérrez, J. Ortega-Garcia, Weisong Zhao, Xiangyu Zhu, Zheyu Yan, Xiao-Yu Zhang, Jinlin Wu, Zhen Lei, Suvidha Tripathi, Mahak Kothari, Md Haider Zama, Debayan Deb, Bernardo Biesseck, Pedro Vidal, Roger Granada, Guilherme Fickel, Gustavo Führ, David Menotti, Alexander Unnervik, <span class="my-name">Anjith George</span>, Christophe Ecabert, Hatef Otroshi-Shahreza, Parsa Rahimi, Sébastien Marcel, Ioannis Sarridis, C. Koutlis, Georgia Baltsou, Symeon Papadopoulos, Christos Diou, N. Domenico, Guido Borghi, Lorenzo Pellegrini, Enrique Mas-Candela, Ángela Sánchez-Pérez, A. Atzori, Fadi Boutros, Naser Damer, G. Fenu, Mirko Marras <br>
                     <span class="venue">Information Fusion, 2024</span>
                 </summary>
                 <div class="links-row"><a href="https://doi.org/10.1016/j.inffus.2024.102322" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/906ae08b5a8b7780dc7f641064abbc85e2e8e398" class="badge-link" target="_blank">URL</a></div>
                 <div class="abstract-box">
-                    No abstract available for this publication.
+                    This article presents FRCSyn-onGoing, an ongoing challenge for face recognition where researchers can easily benchmark their systems against the state of the art in an open common platform using large-scale public databases and standard experimental protocols. FRCSyn-onGoing is based on the Face Recognition Challenge in the Era of Synthetic Data (FRCSyn) organized at WACV 2024. This is the first face recognition international challenge aiming to explore the use of real and synthetic data independently, and also their fusion, in order to address existing limitations in the technology. Specifically, FRCSyn-onGoing targets concerns related to data privacy issues, demographic biases, generalization to unseen scenarios, and performance limitations in challenging scenarios, including significant age disparities between enrollment and testing, pose variations, and occlusions. To enhance face recognition performance, FRCSyn-onGoing strongly advocates for information
                 </div>
             </details>
         
@@ -225,40 +287,16 @@
             <details>
                 <summary>
                     <span class="paper-title">Second FRCSyn-onGoing: Winning Solutions and Post-Challenge Analysis to Improve Face Recognition with Synthetic Data</span>
-                    Ivan Deandres-Tame, Rubén Tolosana, Pietro Melzi, R. Vera-Rodríguez, Minchul Kim, C. Rathgeb, Xiaoming Liu, Luis F. Gomez, A. Morales, Julian Fiérrez, J. Ortega-Garcia, Zhizhou Zhong, Y. Huang, Yuxi Mi, Shouhong Ding, Shuigeng Zhou, Shuai He, Lingzhi Fu, Heng Cong, Rongyu Zhang, Zhihong Xiao, Evgeny Smirnov, Anton Pimenov, A I Grigorev, Denis Timoshenko, K. Asfaw, Cheng Yaw Low, Hao Liu, Chuyi Wang, Qing Zuo, Zhixiang He, Hatef Otroshi Shahreza, <span class="my-name">Anjith George</span>, A. Unnervik, Parsa Rahimi, Sébastien Marcel, Pedro C. Neto, Marco Huber, J. Kolf, Naser Damer, Fadi Boutros, Jaime S. Cardoso, Ana F. Sequeira, A. Atzori, G. Fenu, Mirko Marras, Vitomir vStruc, Jiang Yu, Zhangjie Li, Jichun Li, Weisong Zhao, Zhen Lei, Xiangyu Zhu, Xiao-Yu Zhang, Bernardo Biesseck, Pedro Vidal, Luiz Coelho, Roger Granada, David Menotti <br>
+                    Ivan Deandres-Tame, Rubén Tolosana, Pietro Melzi, R. Vera-Rodríguez, Minchul Kim, C. Rathgeb, Xiaoming Liu, L. F. Gómez, A. Morales, Julian Fiérrez, J. Ortega-Garcia, Zhizhou Zhong, Y. Huang, Yuxi Mi, Shouhong Ding, Shuigeng Zhou, Shuai He, Lingzhi Fu, Heng Cong, Rongyu Zhang, Zhihong Xiao, Evgeny Smirnov, Anton Pimenov, A. Grigorev, Denis Timoshenko, K. Asfaw, Cheng Yaw Low, Hao Liu, Chuyi Wang, Qing Zuo, Zhixiang He, Hatef Otroshi Shahreza, <span class="my-name">Anjith George</span>, Alexander Unnervik, Parsa Rahimi, Sébastien Marcel, Pedro C. Neto, Marco Huber, J. Kolf, Naser Damer, Fadi Boutros, Jaime S. Cardoso, Ana F. Sequeira, A. Atzori, G. Fenu, Mirko Marras, Vitomir vStruc, Jiang Yu, Zhangjie Li, Jichun Li, Weisong Zhao, Zhen Lei, Xiangyu Zhu, Xiao-Yu Zhang, Bernardo Biesseck, Pedro Vidal, Luiz Coelho, Roger Granada, David Menotti <br>
                     <span class="venue">Information Fusion, 2024</span>
                 </summary>
-                <div class="links-row"><a href="https://doi.org/10.48550/arXiv.2412.01383" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/eefd9c3402bff5ec3182739700fea0ad3b9948c7" class="badge-link" target="_blank">URL</a></div>
+                <div class="links-row"><a href="https://doi.org/10.1016/j.inffus.2025.103099" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/eefd9c3402bff5ec3182739700fea0ad3b9948c7" class="badge-link" target="_blank">URL</a></div>
                 <div class="abstract-box">
                     Synthetic data is gaining increasing popularity for face recognition technologies, mainly due to the privacy concerns and challenges associated with obtaining real data, including diverse scenarios, quality, and demographic groups, among others. It also offers some advantages over real data, such as the large amount of data that can be generated or the ability to customize it to adapt to specific problem-solving needs. To effectively use such data, face recognition models should also be specifically designed to exploit synthetic data to its fullest potential. In order to promote the proposal of novel Generative AI methods and synthetic data, and investigate the application of synthetic data to better train face recognition systems, we introduce the 2nd FRCSyn-onGoing challenge, based on the 2nd Face Recognition Challenge in the Era of Synthetic Data (FRCSyn), originally launched at CVPR 2024. This is an ongoing challenge that provides researchers with an accessible platform to benchmark i) the proposal of novel Generative AI methods and synthetic data, and ii) novel face recognition systems that are specifically proposed to take advantage of synthetic data. We focus on exploring the use of synthetic data both individually and in combination with real data to solve current challenges in face recognition such as demographic bias, domain adaptation, and performance constraints in demanding situations, such as age disparities between training and testing, changes in the pose, or occlusions. Very interesting findings are obtained in this second edition, including a direct comparison with the first one, in which synthetic databases were restricted to DCFace and GANDiffFace.
                 </div>
             </details>
-        
-            <details>
-                <summary>
-                    <span class="paper-title">From Modalities to Styles: Rethinking the Domain Gap in Heterogeneous Face Recognition</span>
-                    <span class="my-name">Anjith George</span>, Sébastien Marcel <br>
-                    <span class="venue">IEEE Transactions on Biometrics Behavior and Identity Science, 2024</span>
-                </summary>
-                <div class="links-row"><a href="https://doi.org/10.1109/TBIOM.2024.3365350" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/ccde56677f2dd82fb70f10f99ce2c1acd4a2ced2" class="badge-link" target="_blank">URL</a></div>
-                <div class="abstract-box">
-                    Heterogeneous Face Recognition (HFR) focuses on matching faces from different domains, for instance, thermal to visible images, making Face Recognition (FR) systems more versatile for challenging scenarios. However, the domain gap between these domains and the limited large-scale datasets in the target HFR modalities make it challenging to develop robust HFR models from scratch. In our work, we view different modalities as distinct styles and propose a method to modulate feature maps of the target modality to address the domain gap. We present a new Conditional Adaptive Instance Modulation (CAIM) module that seamlessly fits into existing FR networks, turning them into HFR-ready systems. The CAIM block modulates intermediate feature maps, efficiently adapting to the style of the source modality and bridging the domain gap. Our method enables end-to-end training using a small set of paired samples. We extensively evaluate the proposed approach on various challenging HFR benchmarks, showing that it outperforms state-of-the-art methods. The source code and protocols for reproducing the findings will be made publicly available.
-                </div>
-            </details>
         <h2 class="year-heading">2023</h2>
 
-            <details>
-                <summary>
-                    <span class="paper-title">FRCSyn Challenge at WACV 2024: Face Recognition Challenge in the Era of Synthetic Data</span>
-                    Pietro Melzi, Rubén Tolosana, R. Vera-Rodríguez, Minchul Kim, C. Rathgeb, Xiaoming Liu, Ivan Deandres-Tame, A. Morales, Julian Fiérrez, J. Ortega-Garcia, Weisong Zhao, Xiangyu Zhu, Zheyu Yan, Xiao-Yu Zhang, Jinlin Wu, Zhen Lei, Suvidha Tripathi, Mahak Kothari, Md Haider Zama, Debayan Deb, Bernardo Biesseck, Pedro Vidal, R. Granada, Guilherme P. Fickel, Gustavo Fuhr, D. Menotti, A. Unnervik, <span class="my-name">Anjith George</span>, Christophe Ecabert, Hatef Otroshi Shahreza, Parsa Rahimi, Sébastien Marcel, Ioannis Sarridis, C. Koutlis, Georgia Baltsou, Symeon Papadopoulos, Christos Diou, Nicolò Di Domenico, Guido Borghi, Lorenzo Pellegrini, Enrique Mas-Candela, 'Angela S'anchez-P'erez, A. Atzori, Fadi Boutros, Naser Damer, G. Fenu, Mirko Marras <br>
-                    <span class="venue">2024 IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW), 2023</span>
-                </summary>
-                <div class="links-row"><a href="https://doi.org/10.1109/WACVW60836.2024.00100" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/9b76e765170c4afb261ee7b073c28b63dc3a4eb1" class="badge-link" target="_blank">URL</a></div>
-                <div class="abstract-box">
-                    Despite the widespread adoption of face recognition technology around the world, and its remarkable performance on current benchmarks, there are still several challenges that must be covered in more detail. This paper offers an overview of the Face Recognition Challenge in the Era of Synthetic Data (FRCSyn) organized at WACV 2024. This is the first international challenge aiming to explore the use of synthetic data in face recognition to address existing limitations in the technology. Specifically, the FRCSyn Challenge targets concerns related to data privacy issues, demographic biases, generalization to unseen scenarios, and performance limitations in challenging scenarios, including significant age disparities between enrollment and testing, pose variations, and occlusions. The results achieved in the FRCSyn Challenge, together with the proposed benchmark, contribute significantly to the application of synthetic data to improve face recognition technology.
-                </div>
-            </details>
-        
             <details>
                 <summary>
                     <span class="paper-title">EdgeFace: Efficient Face Recognition Model for Edge Devices</span>
@@ -286,7 +324,7 @@
             <details>
                 <summary>
                     <span class="paper-title">EFaR 2023: Efficient Face Recognition Competition</span>
-                    J. Kolf, Fadi Boutros, Jurek Elliesen, Markus Theuerkauf, Naser Damer, Mohamad Alansari, Oussama Abdul Hay, Sara Alansari, S. Javed, N. Werghi, Klemen Grm, Vitomir vStruc, F. Alonso-Fernandez, Kevin Hernandez Diaz, J. Bigun, <span class="my-name">Anjith George</span>, Christophe Ecabert, Hatef Otroshi Shahreza, Ketan Kotwal, S. Marcel, Iurii Medvedev, Bo-Hao Jin, Diogo Nunes, Ahmad Hassanpour, Pankaj Khatiwada, A. Toor, Bian Yang <br>
+                    J. Kolf, Fadi Boutros, Jurek Elliesen, Markus Theuerkauf, Naser Damer, Mohamad Alansari, Oussama Abdul Hay, Sara Alansari, S. Javed, N. Werghi, Klemen Grm, Vitomir vStruc, F. Alonso-Fernandez, K. Diaz, J. Bigun, <span class="my-name">Anjith George</span>, Christophe Ecabert, Hatef Otroshi Shahreza, Ketan Kotwal, S. Marcel, Iurii Medvedev, Bo-Hao Jin, Diogo Nunes, Ahmad Hassanpour, Pankaj Khatiwada, A. Toor, Bian Yang <br>
                     <span class="venue">2023 IEEE International Joint Conference on Biometrics (IJCB), 2023</span>
                 </summary>
                 <div class="links-row"><a href="https://doi.org/10.1109/IJCB57857.2023.10448917" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/2581020be3d8ebbd3b7f95ed899439c13fc3fbea" class="badge-link" target="_blank">URL</a></div>
@@ -316,6 +354,18 @@
                 <div class="links-row"><a href="https://doi.org/10.1109/IJCB57857.2023.10448642" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/4f3c83cd9a101a35bf5fb3bd4c86cbb67d8fae0c" class="badge-link" target="_blank">URL</a></div>
                 <div class="abstract-box">
                     State-of-the-art face recognition networks are often computationally expensive and cannot be used for mobile applications. Training lightweight face recognition models also requires large identity-labeled datasets. Meanwhile, there are privacy and ethical concerns with collecting and using large face recognition datasets. While generating synthetic datasets for training face recognition models is an alternative option, it is challenging to generate synthetic data with sufficient intra-class variations. In addition, there is still a considerable gap between the performance of models trained on real and synthetic data. In this paper, we propose a new framework (named SynthDistill) to train lightweight face recognition models by distilling the knowledge of a pretrained teacher face recognition model using synthetic data. We use a pretrained face generator network to generate synthetic face images and use the synthesized images to learn a lightweight student network. We use synthetic face images without identity labels, mitigating the problems in the intra-class variation generation of synthetic datasets. Instead, we propose a novel dynamic sampling strategy from the intermediate latent space of the face generator network to include new variations of the challenging images while further exploring new face images in the training batch. The results on five different face recognition datasets demonstrate the superiority of our lightweight model compared to models trained on previous synthetic datasets, achieving a verification accuracy of 99.52% on the LFW dataset with a lightweight network. The results also show that our proposed framework significantly reduces the gap between training with real and synthetic data. The source code for replicating the experiments is publicly released.
+                </div>
+            </details>
+        
+            <details>
+                <summary>
+                    <span class="paper-title">FRCSyn Challenge at WACV 2024: Face Recognition Challenge in the Era of Synthetic Data</span>
+                    Pietro Melzi, Rubén Tolosana, R. Vera-Rodríguez, Minchul Kim, C. Rathgeb, Xiaoming Liu, Ivan Deandres-Tame, A. Morales, Julian Fiérrez, J. Ortega-Garcia, Weisong Zhao, Xiangyu Zhu, Zheyu Yan, Xiao-Yu Zhang, Jinlin Wu, Zhen Lei, Suvidha Tripathi, Mahak Kothari, Md Haider Zama, Debayan Deb, Bernardo Biesseck, Pedro Vidal, R. Granada, Guilherme P. Fickel, Gustavo Fuhr, D. Menotti, Alexander Unnervik, <span class="my-name">Anjith George</span>, Christophe Ecabert, Hatef Otroshi Shahreza, Parsa Rahimi, Sébastien Marcel, Ioannis Sarridis, C. Koutlis, Georgia Baltsou, Symeon Papadopoulos, Christos Diou, N. Domenico, Guido Borghi, Lorenzo Pellegrini, Enrique Mas-Candela, 'Angela S'anchez-P'erez, A. Atzori, Fadi Boutros, Naser Damer, G. Fenu, Mirko Marras <br>
+                    <span class="venue">2024 IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW), 2023</span>
+                </summary>
+                <div class="links-row"><a href="https://doi.org/10.1109/WACVW60836.2024.00100" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/9b76e765170c4afb261ee7b073c28b63dc3a4eb1" class="badge-link" target="_blank">URL</a></div>
+                <div class="abstract-box">
+                    Despite the widespread adoption of face recognition technology around the world, and its remarkable performance on current benchmarks, there are still several challenges that must be covered in more detail. This paper offers an overview of the Face Recognition Challenge in the Era of Synthetic Data (FRCSyn) organized at WACV 2024. This is the first international challenge aiming to explore the use of synthetic data in face recognition to address existing limitations in the technology. Specifically, the FRCSyn Challenge targets concerns related to data privacy issues, demographic biases, generalization to unseen scenarios, and performance limitations in challenging scenarios, including significant age disparities between enrollment and testing, pose variations, and occlusions. The results achieved in the FRCSyn Challenge, together with the proposed benchmark, contribute significantly to the application of synthetic data to improve face recognition technology.
                 </div>
             </details>
         <h2 class="year-heading">2022</h2>
@@ -396,7 +446,7 @@
             <details>
                 <summary>
                     <span class="paper-title">Face Liveness Detection Competition (LivDet-Face) - 2021</span>
-                    Sandip Purnapatra, Nic Smalt, Keivan Bahmani, Priyanka Das, David Yambay, Amir Mohammadi, <span class="my-name">Anjith George</span>, T. Bourlai, S. Marcel, S. Schuckers, Meiling Fang, Naser Damer, Fadi Boutros, Arjan Kuijper, Alperen Kantarci, Basar Demir, Zafer Yildiz, Zabi Ghafoory, Hasan Dertli, H. K. Ekenel, Son Vu, V. Christophides, Liang Dashuang, Zhang Guanghao, Hao Zhanlong, Liu Junfu, Jin Yufeng, Samo Liu, Samuel Huang, Salieri Kuei, Jag Mohan Singh, Raghavendra Ramachandra <br>
+                    Sandip Purnapatra, Nic Smalt, Keivan Bahmani, Priyanka Das, David Yambay, Amir Mohammadi, <span class="my-name">Anjith George</span>, T. Bourlai, S. Marcel, S. Schuckers, Meiling Fang, Naser Damer, Fadi Boutros, Arjan Kuijper, Alperen Kantarcı, Basar Demir, Zafer Yildiz, Zabi Ghafoory, Hasan Dertli, H. K. Ekenel, Son Vu, V. Christophides, Liang Dashuang, Zhang Guanghao, Hao Zhanlong, Liu Junfu, Jin Yufeng, Samo Liu, Samuel Huang, Salieri Kuei, Jag Mohan Singh, Raghavendra Ramachandra <br>
                     <span class="venue">2021 IEEE International Joint Conference on Biometrics (IJCB), 2021</span>
                 </summary>
                 <div class="links-row"><a href="https://doi.org/10.1109/IJCB52358.2021.9484359" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/5e7251cb1341ffef0486ab534007b3cae0c7bc30" class="badge-link" target="_blank">URL</a></div>
@@ -569,7 +619,7 @@ In the second part of this work, we have developed two applications which can be
             <details>
                 <summary>
                     <span class="paper-title">The unconstrained ear recognition challenge</span>
-                    Žiga Emeršič, Dejan Štepec, V. Štruc, P. Peer, <span class="my-name">Anjith George</span>, Adil Ahmad, E. Omar, T. Boult, Reza Safdari, Yuxiang Zhou, S. Zafeiriou, Dogucan Yaman, Fevziye Irem Eyiokur, H. K. Ekenel <br>
+                    Žiga Emeršič, Dejan Štepec, V. Struc, P. Peer, <span class="my-name">Anjith George</span>, Adil Ahmad, E. Omar, T. Boult, Reza Safdari, Yuxiang Zhou, S. Zafeiriou, Dogucan Yaman, Fevziye Irem Eyiokur, H. K. Ekenel <br>
                     <span class="venue">2017 IEEE International Joint Conference on Biometrics (IJCB), 2017</span>
                 </summary>
                 <div class="links-row"><a href="https://doi.org/10.1109/BTAS.2017.8272761" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/8181bf57f235ac8ee02c27cc28781174a19c342b" class="badge-link" target="_blank">URL</a></div>
@@ -635,7 +685,7 @@ In the second part of this work, we have developed two applications which can be
                 </summary>
                 <div class="links-row"><a href="https://doi.org/10.1016/j.patrec.2015.11.020" class="badge-link" target="_blank">DOI</a><a href="https://www.semanticscholar.org/paper/caa18e294dff1ca9ecbf01e5b08b7fd164a42c03" class="badge-link" target="_blank">URL</a></div>
                 <div class="abstract-box">
-                    No abstract available for this publication.
+                    A novel framework for eye movement biometrics is developed.Proposed algorithm achieved EER of 2.59% in a random stimulus task.Eye movement biometrics can be used to enhance counterfeit-resistance.The proposed method outperformed all the other methods in BioEye 2015 competition.The proposed method could be used with existing iris recognition systems since it provides inherent liveliness detection capabilities. Display Omitted This paper proposes a novel framework for the use of eye movement patterns for biometric applications. Eye movements contain abundant information about cognitive brain functions, neural pathways, etc. In the proposed method, eye movement data is classified into fixations and saccades. Features extracted from fixations and saccades are used by a Gaussian Radial Basis Function Network (GRBFN) based method for biometric authentication. A score fusion approach is adopted to classify the data in the output layer. In the evaluation stage, the algorithm has been tested using two types of stimuli: random dot following on a screen and text reading. The results indicate the strength of eye movement pattern as a biometric modality. The algorithm has been evaluated on BioEye 2015 database and found to outperform all the other methods. Eye movements are generated by a complex oculomotor plant which is very hard to spoof by mechanical replicas. Use of eye movement dynamics along with iris recognition technology may lead to a robust counterfeit-resistant person identification system.
                 </div>
             </details>
         <h2 class="year-heading">2015</h2>
@@ -798,7 +848,7 @@ In the second part of this work, we have developed two applications which can be
                     No abstract available for this publication.
                 </div>
             </details>
-        
+
         </main>
     </div>
 
